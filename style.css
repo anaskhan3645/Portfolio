@@ -290,3 +290,129 @@ nav a {
   background: #52e0c4;
 }
 
+/* 🔻 Responsive Design - Medium Devices (Tablets & small laptops) */
+@media (max-width: 1024px) {
+  header {
+    padding: 20px 30px;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  nav {
+    margin-top: 10px;
+  }
+
+  .hero {
+    flex-direction: column;
+    text-align: center;
+    padding: 40px 20px;
+  }
+
+  .hero-img img {
+    margin: 20px 0 0;
+  }
+
+  .about-content {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .about-text {
+    text-align: center;
+  }
+
+  .form-row {
+    flex-direction: column;
+  }
+
+  .form-row input {
+    width: 100%;
+  }
+}
+
+/* 🔻 Responsive Design - Small Devices (Phones < 768px) */
+@media (max-width: 768px) {
+  .logo {
+    font-size: 1.4rem;
+  }
+
+  nav a {
+    margin: 8px;
+    display: inline-block;
+  }
+
+  .hero-text h1 {
+    font-size: 1.5rem;
+  }
+
+  .hero-text h2 {
+    font-size: 2rem;
+  }
+
+  .hero-img img {
+    width: 200px;
+    height: 200px;
+  }
+
+  .about-img img {
+    width: 200px;
+    height: 200px;
+  }
+
+  .service-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .service-box {
+    width: 90%;
+  }
+
+  .projects {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .project img {
+    width: 90%;
+    height: auto;
+  }
+
+  .contact h2 {
+    font-size: 28px;
+  }
+
+  .contact textarea {
+    font-size: 14px;
+  }
+}
+
+/* 🔻 Extra Small Devices (Phones < 480px) */
+@media (max-width: 480px) {
+  body {
+    font-size: 14px;
+  }
+
+  .btn {
+    padding: 8px 12px;
+    font-size: 14px;
+  }
+
+  .hero-text h2 {
+    font-size: 1.6rem;
+  }
+
+  .contact .btn {
+    width: 100%;
+  }
+
+  .project img {
+    border-radius: 5px;
+  }
+
+  .about-text p,
+  .service-box p {
+    font-size: 0.9rem;
+  }
+}
+
